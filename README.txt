@@ -12,3 +12,8 @@ tf.keras-standard_nn.py
 -こちらも参照
 -https://colab.research.google.com/github/DeepInsider/playground-data/blob/master/docs/articles/tf2_keras_neuralnetwork.ipynb?pli=1#scrollTo=Trk7kOFowxiQ
 
+forward_prop.py
+-https://atmarkit.itmedia.co.jp/ait/articles/2202/09/news027.html
+-ニューラルネットの勉強用のソース
+-順伝搬の例題でノードのweightを手作業で設定した上で
+-入力を入れると途中の加算結果(cache)と結果(prep)を返す
