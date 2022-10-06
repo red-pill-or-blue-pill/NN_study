@@ -27,3 +27,18 @@ back_prop.py
 -入力を入れると途中の加算結果(cache)と結果(prep)を返す
 -（forward_prop.pyと一緒）
 -その上で逆伝搬の計算を行い、重みとバイアスの計算を行う
+
+update_params.py
+-https://atmarkit.itmedia.co.jp/ait/articles/2202/28/news030.html
+-ニューラルネットの勉強用のソース
+-パラメータのアップデートのため順伝搬・逆伝搬をした上で
+-算出した重み・バイアスでtrain関数で調整を行う
+-optimize関数は最適化のための関数でtrainから呼ばれる
+-最終的にはtrain関数を実行さえすれば、モデルと損失値を返す
+
+solve_regression.py
+-https://atmarkit.itmedia.co.jp/ait/articles/2202/28/news030.html
+-ニューラルネットの勉強用のソース
+-最終的に回帰問題を解く例題
+-デモ用に訓練用データを作りtrainで処理された結果の
+-model, loss_historyのうちloss_historyをプロットする
