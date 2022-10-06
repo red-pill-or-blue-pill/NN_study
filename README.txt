@@ -19,3 +19,11 @@ forward_prop.py
 -入力を入れると途中の加算結果(cache)と結果(prep)を返す
 -model 入力層：２、隠れ層１：３、出力層：１
 -model2 入力層：２、隠れ層１：３、隠れ層２：２、出力層：１
+
+back_prop.py
+-https://atmarkit.itmedia.co.jp/ait/articles/2202/16/news032.html
+-ニューラルネットの勉強用のソース
+-逆伝搬の例題で、まずはノードのweightを手作業で設定した上で
+-入力を入れると途中の加算結果(cache)と結果(prep)を返す
+-（forward_prop.pyと一緒）
+-その上で逆伝搬の計算を行い、重みとバイアスの計算を行う
